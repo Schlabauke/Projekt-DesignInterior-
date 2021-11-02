@@ -1,0 +1,166 @@
+/* Farbe: #2e2e2e / #fff / #000 / #1d2c2f 
+font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif;
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Work+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ###################### HEADER ################################## */
+
+/* header {
+    background: url("../img/design-interior-1.jpg") right/cover no-repeat;
+    background-size: 60vw;
+    height: 100vh;
+} */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 60vw;
+}
+
+header article {
+    text-align: center;
+    width: 40vw;
+}
+
+header article h1 {
+    font-size: 48px;
+    letter-spacing: 20px;
+}
+
+header article p {
+    font-size: 15px;
+}
+
+/* ############################# MAIN STYLE ##################################### */
+
+main section:nth-of-type(odd) {
+    background: #2e2e2e;
+    color: #fff;
+}
+
+main section:nth-of-type(1) nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+main section:nth-of-type(1) nav ul {
+    list-style: none;
+}
+
+main section:nth-of-type(1) nav ul li {
+    display: inline-block;
+    padding: 2em 5em;
+}
+
+main section:nth-of-type(1) article {
+    margin: 10vh 0;
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+main section:nth-of-type(1) article div {
+    width: 40vw;
+    margin: 0 auto;
+}
+
+main section:nth-of-type(1) article div h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2vh;
+}
+
+main section:nth-of-type(1) article div p {
+    margin-bottom: 3vh;
+    line-height: 35px;
+    text-align: justify;
+}
+
+/* ########################### Section 2 ############################# */
+
+main section:nth-of-type(2) {
+    text-align: center;
+    padding-bottom: 15vh;
+}
+
+main section:nth-of-type(2) h2 {
+    font-size: 40px;
+    margin-bottom: 3vh;
+}
+
+main section:nth-of-type(2) article {
+    display: flex;
+    justify-content: space-around;
+    margin: 10vh 0 15vh 0;
+}
+
+main section:nth-of-type(2) figure img {
+    width: 30vw;
+    margin-bottom: 2vh;
+}
+
+/* ########################## Section 3 ################################ */
+
+main section:nth-of-type(3) {
+    padding: 15vh 0;
+    display: flex;
+    align-content: space-between;
+}
+
+main section:nth-of-type(3) article {
+    margin: 10vh auto;
+    width: 40vw;
+}
+
+main section:nth-of-type(3) article h2 {
+    font-size: 40px;
+    margin-bottom: 3vh;
+}
+
+main section:nth-of-type(3) p {
+    margin-bottom: 3vh;
+    line-height: 35px;
+    text-align: justify;
+}
+
+#form input {
+    padding: 1vh 15vw 1vh 0;
+    margin: 1vh 0 3vh 0;
+}
+
+#button {
+    padding: 1vh 2vw;
+}
+
+/* ############################# FOOTER ################################ */
+
+footer {
+    background: #1d2c2f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 2vh 3vw;
+}
